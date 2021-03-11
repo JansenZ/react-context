@@ -1,0 +1,40 @@
+h1,
+p {
+  font-family: Lato;
+}
+.btn {
+  width: 120px;
+  height: 30px;
+  background: #eee;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.inner {
+  font-size: 12px;
+  color: #999;
+}
+.wrapper {
+  border: 1px solid #666;
+  padding: 10px;
+  margin: 10px;
+}
+.red {
+  color: red;
+}
+.teal {
+  color: teal;
+}
+
+.split {
+  color: #999;
+  font-size: 12px;
+  margin: 10px;
+}
+.wrap_cart {
+  border: 10px solid;
+}
+.wrap_cart2 {
+  border: 5px solid #f20;
+}
