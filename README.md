@@ -1,4 +1,4 @@
-### 下一代React hooks 状态管理系统
+### React hooks 状态管理系统
 ### API
 #### createPage
 #### inject
