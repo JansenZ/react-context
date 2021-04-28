@@ -10,6 +10,20 @@ module.exports = {
         libraryTarget: 'umd' // 这个选项会尝试把库暴露给前使用的模块定义系统，这使其和CommonJS、AMD兼容或者暴露为全局变量
     },
     mode: "production",
+    externals: {
+        react: {
+          commonjs: 'react',
+          commonjs2: 'react',
+          amd: 'react',
+          root: 'React',
+        },
+        'react-dom': {
+          commonjs: 'react-dom',
+          commonjs2: 'react-dom',
+          amd: 'react-dom',
+          root: 'ReactDOM',
+        },
+    },
     module: {
         rules: [
             {
