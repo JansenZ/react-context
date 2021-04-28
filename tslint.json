@@ -1,0 +1,24 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "member-access": false,
+        "member-ordering": false,
+        "ordered-imports": false,
+        "eofline": false,
+        "no-empty": false,
+        "quotemark": false,
+        "prefer-const": false,
+        "no-console": false,
+        "max-line-length": false,
+        "trailing-comma": false,
+        "indent": [true, "spaces", 4],
+        "no-unused-expression": false,
+        "no-shadowed-variable": false,
+        "object-literal-sort-keys": false,
+        "no-var-keyword": false,
+        "triple-equals": false,
+        "no-string-literal": false,
+        "only-arrow-functions": false,
+        "space-before-function-paren": false
+    }
+}

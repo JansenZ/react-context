@@ -1,0 +1,8 @@
+dist
+doctor.iml
+node_modules
+target
+test/bower_components
+.vscode
+static
+sass/_sprite.scss

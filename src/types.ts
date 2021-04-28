@@ -1,0 +1,1 @@
+export type HookFn<T = any, P = any> = (hookArg: P) => T;
