@@ -1,1 +1,0 @@
-export { createPage, inject } from "./connect";

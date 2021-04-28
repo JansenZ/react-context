@@ -3,10 +3,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = {
-    entry: './src/index.ts', //webpack的默认配置
+    entry: './src/index.js', //webpack的默认配置
     output: {
         path: path.resolve(__dirname, 'dist'), //必须是绝对路径
-        filename: 'bundle.[hash].js'
+        filename: 'connect.js',
+        libraryTarget: 'umd' // 这个选项会尝试把库暴露给前使用的模块定义系统，这使其和CommonJS、AMD兼容或者暴露为全局变量
     },
     mode: "production",
     module: {
