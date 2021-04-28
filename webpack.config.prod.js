@@ -66,7 +66,7 @@ module.exports = {
         hot: true, // 热更新
         compress: true //是否启用 gzip 压缩
     },
-    devtool: 'cheap-module-source-map',
+    devtool: false,
     resolve: {
         extensions: ['.js', '.jsx','.json', '.ts', '.tsx']
     },
