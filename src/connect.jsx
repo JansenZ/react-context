@@ -11,7 +11,6 @@ export const createPage = useHook => Wrap => props => {
     </Provider>
   );
 };
-// tainan l 
 
 export const inject = fn => {
   return ComponentUi => {
