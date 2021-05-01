@@ -11,7 +11,7 @@ export const createPage = useHook => Wrap => props => {
     </Provider>
   );
 };
-
+// test
 export const inject = fn => {
   return ComponentUi => {
     return props => {
