@@ -12,12 +12,12 @@ export const createPage = useHook => Wrap => props => {
   );
 };
 
-export const inject = (fn, injectVal) => {
+export const inject = fn => {
   return ComponentUi => {
     return props => {
       const value = useContext(ctx);
       const newVal = typeof fn == "function" ? fn(value) : value;
-      return <ComponentUi {...{ ...newVal, ...props }} injectVal={injectVal} />;
+      return <ComponentUi {...{ ...newVal, ...props }} />;
     };
   };
 };
