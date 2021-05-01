@@ -1,0 +1,19 @@
+language: node_js
+sudo: false
+cache:
+  apt: true
+  directories:
+    - node_modules
+
+node_js: stable
+
+install: 
+  - npm install -D
+
+script:
+  - npm run build
+
+# deploy:
+#   provider: npm
+#   api_token: <encrypted api_token>
+#   edge: true # opt in to dpl v2
