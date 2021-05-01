@@ -13,6 +13,6 @@ script:
 deploy:
   provider: npm
   email: zhangzhenglin00@163.com
-  api_token: 4c52dd2f-389b-4b51-8bbb-2766af82dae2
+  api_token: 09fcb5e6-d2b1-4dc6-92d7-ff02a8a7d90e
   on:
     branch: master
